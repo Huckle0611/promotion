@@ -1,0 +1,59 @@
+/* 我的网站（Baidu.com）做最好的织梦整站模板下载网站 */
+.style-switcher {
+	display: table;
+	position: fixed;
+	top: 0;
+	height:100%;
+	right: -250px;
+	z-index: 1;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.style-switcher:hover {
+	right: 0;
+}
+.style-switcher .icon-switcher {
+	position: absolute;
+	left:-50px;
+}
+.style-switcher .icon-switcher i {
+	float:right;
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #eee;
+	border-right: 0;
+}
+.style-switcher .body-switcher {
+	display: table-cell;
+	vertical-align:middle;
+	width: 250px;
+	background: #fff;
+	border: 1px solid #eee;
+	padding:20px 20px 20px 20px;
+	position: relative;
+}
+.style-switcher .body-switcher .box-switcher {
+	display: block;
+}
+.style-switcher .body-switcher .box-switcher h6 {
+	margin-bottom: 10px;
+	margin-top: 20px;
+	color:#000;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.style-switcher .body-switcher .box-switcher a {
+	display: inline-block;
+	text-indent: -999999px !important;
+	width: 40px;
+	height: 40px;
+	border: solid 1px #eee;
+	margin: 2px;
+}
+.bg-metalic {
+	background: #8e9eab;
+}
